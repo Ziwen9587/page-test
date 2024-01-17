@@ -1,0 +1,68 @@
+html{
+    font-family: 'Open Sans', sans-serif;
+}
+
+#screenshot-container{
+    display:flex;
+    justify-content:center;
+}
+#page-img{
+    width:850px;
+    height:350px;
+}
+.background {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    /* height: 100%; */
+    min-height: 100vh;
+    position: relative;
+}
+
+.heading{
+    color: black;
+}
+
+.text-container h1{
+    text-align: center;
+    color: #000000;
+    font-weight: 900;
+    font-size: 55px;
+    padding: 25px;
+} 
+
+
+.text-container p{
+    text-align: center;
+    color: #ffffff;
+    padding: 20px;
+    background: linear-gradient(45deg, rgba(0, 0, 0, 0.5), rgba(6, 70, 107, 0.459));
+} 
+
+.text-container a{
+    position: relative;
+    left: 38%;
+    padding: 25px;
+}
+
+.text-transparent{
+    font-size: 25px;
+    background-image: linear-gradient(to right, #88d7fc, #ddf12b); /* Define your gradient colors */
+    color: transparent; 
+    background-clip: text; /* Set background-clip property for other browsers */
+}
+
+img {
+    width: 20%;
+    height: 20%;
+    border: 2px solid #030303;
+  }
+
+form {
+    /* text-align: center; */
+    color: black;
+    padding: 20px;
+}
+
+
+
